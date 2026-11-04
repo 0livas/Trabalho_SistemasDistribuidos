@@ -41,7 +41,7 @@ public class menuServidor {
                 Tray = SystemTray.getSystemTray();
                 
                 // Declarando as Variáveis do Menu 
-                ImageIcon imgIcon = new ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Chat_Middleware_Service\\src\\main\\java\\pacote\\Imgs\\Icong.png", "Servidor Chat");
+                ImageIcon imgIcon = new ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Trabalho_Chat\\Chat_Middleware_Service\\src\\main\\java\\pacote\\Imgs\\Icong.png", "Servidor Chat");
                 Icon = new TrayIcon(imgIcon.getImage());
                 Icon.setImageAutoSize(true);
                 Popup = new PopupMenu();

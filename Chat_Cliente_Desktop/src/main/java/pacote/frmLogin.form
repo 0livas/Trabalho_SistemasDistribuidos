@@ -42,40 +42,39 @@
               <EmptySpace max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                      <Component id="Label_Avatar" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                      <Component id="Rad_FemaleIcon" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Label_FemaleIcon" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                      <Component id="Rad_MaleIcon" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Label_MaleIcon" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="28" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="Btn_Entrar" min="-2" pref="106" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="Btn_Entrar" min="-2" pref="106" max="-2" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Component id="Label_Cor" min="-2" pref="37" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Label_Cor" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="Label_Avatar" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
                               <Component id="Rad_Preto" min="-2" pref="81" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Rad_Azul" min="-2" pref="70" max="-2" attributes="0"/>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Rad_FemaleIcon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Label_FemaleIcon" min="-2" pref="32" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="Rad_MaleIcon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Label_MaleIcon" min="-2" pref="32" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                   </Group>
               </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="Rad_UknownIcon" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="Label_UknownIcon" min="-2" pref="32" max="-2" attributes="0"/>
                   </Group>
                   <Component id="Rad_Vermelho" min="-2" pref="110" max="-2" attributes="0"/>
               </Group>
@@ -87,41 +86,45 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Txt_Nickname" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="Label_Nickname" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Rad_Azul" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Rad_Preto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Rad_Vermelho" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Label_Cor" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Txt_Nickname" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                          <Component id="Label_Nickname" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Rad_Azul" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Rad_Preto" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Rad_Vermelho" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Label_Cor" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Label_FemaleIcon" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Label_MaleIcon" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Rad_MaleIcon" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Label_Avatar" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="Rad_UknownIcon" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Label_Avatar" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Rad_UknownIcon" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <Component id="Label_FemaleIcon" alignment="0" min="-2" pref="32" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <Component id="Rad_FemaleIcon" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rad_FemaleIcon" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Label_UknownIcon" min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="Label_MaleIcon" min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Rad_MaleIcon" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace pref="112" max="32767" attributes="0"/>
+              <EmptySpace pref="109" max="32767" attributes="0"/>
               <Component id="Btn_Entrar" min="-2" pref="39" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
           </Group>
@@ -243,14 +246,14 @@
     <Component class="javax.swing.JLabel" name="Label_FemaleIcon">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jader\Documents\NetBeansProjects\Chat_Cliente_Desktop\src\main\java\imgs\FemaleIcon.png"/>
+          <Image iconType="2" name="C:\Users\Jader\Documents\NetBeansProjects\Trabalho_Chat\Chat_Cliente_Desktop\src\main\java\imgs\FemaleIcon.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="Label_MaleIcon">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jader\Documents\NetBeansProjects\Chat_Cliente_Desktop\src\main\java\imgs\MaleIcon.png"/>
+          <Image iconType="2" name="C:\Users\Jader\Documents\NetBeansProjects\Trabalho_Chat\Chat_Cliente_Desktop\src\main\java\imgs\MaleIcon.png"/>
         </Property>
       </Properties>
     </Component>
@@ -265,12 +268,11 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn_EntrarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="Label_UknownIcon">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jader\Documents\NetBeansProjects\Chat_Cliente_Desktop\src\main\java\imgs\UknownIcon.png"/>
+          <Image iconType="2" name="C:\Users\Jader\Documents\NetBeansProjects\Trabalho_Chat\Chat_Cliente_Desktop\src\main\java\imgs\UknownIcon.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
     </Component>
   </SubComponents>

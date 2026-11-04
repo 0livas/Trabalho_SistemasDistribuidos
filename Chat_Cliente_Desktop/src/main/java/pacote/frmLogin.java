@@ -45,7 +45,7 @@ public class frmLogin extends javax.swing.JFrame {
         Label_FemaleIcon = new javax.swing.JLabel();
         Label_MaleIcon = new javax.swing.JLabel();
         Btn_Entrar = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        Label_UknownIcon = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Login");
@@ -91,16 +91,15 @@ public class frmLogin extends javax.swing.JFrame {
         Grp_Avatar.add(Rad_MaleIcon);
         Rad_MaleIcon.addActionListener(this::Rad_MaleIconActionPerformed);
 
-        Label_FemaleIcon.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\FemaleIcon.png")); // NOI18N
+        Label_FemaleIcon.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Trabalho_Chat\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\FemaleIcon.png")); // NOI18N
 
-        Label_MaleIcon.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\MaleIcon.png")); // NOI18N
+        Label_MaleIcon.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Trabalho_Chat\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\MaleIcon.png")); // NOI18N
 
         Btn_Entrar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Btn_Entrar.setText("Entrar");
         Btn_Entrar.addActionListener(this::Btn_EntrarActionPerformed);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\UknownIcon.png")); // NOI18N
-        jLabel1.setText("jLabel1");
+        Label_UknownIcon.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jader\\Documents\\NetBeansProjects\\Trabalho_Chat\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\UknownIcon.png")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -113,35 +112,33 @@ public class frmLogin extends javax.swing.JFrame {
                 .addComponent(Txt_Nickname)
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addContainerGap(50, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(Btn_Entrar, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(Label_Avatar)
-                        .addGap(12, 12, 12)
-                        .addComponent(Rad_FemaleIcon)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Label_FemaleIcon)
-                        .addGap(29, 29, 29)
-                        .addComponent(Rad_MaleIcon)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Label_MaleIcon)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Btn_Entrar, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(Label_Cor, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(Label_Cor, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label_Avatar))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addComponent(Rad_Preto, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Rad_Azul, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(15, 15, 15)))
+                                .addComponent(Rad_Azul, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(Rad_FemaleIcon)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Label_FemaleIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(32, 32, 32)
+                                .addComponent(Rad_MaleIcon)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Label_MaleIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(15, 15, 15)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(Rad_UknownIcon)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Label_UknownIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(Rad_Vermelho, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(48, 48, 48))
         );
@@ -149,32 +146,35 @@ public class frmLogin extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Txt_Nickname, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label_Nickname))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Rad_Azul)
+                    .addComponent(Rad_Preto)
+                    .addComponent(Rad_Vermelho)
+                    .addComponent(Label_Cor))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Txt_Nickname, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Label_Nickname))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Rad_Azul)
-                            .addComponent(Rad_Preto)
-                            .addComponent(Rad_Vermelho)
-                            .addComponent(Label_Cor))
+                        .addGap(13, 13, 13)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Label_FemaleIcon)
-                                    .addComponent(Label_MaleIcon, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Rad_MaleIcon, javax.swing.GroupLayout.Alignment.TRAILING)))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Label_Avatar, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Rad_UknownIcon, javax.swing.GroupLayout.Alignment.TRAILING)))))
-                    .addComponent(Rad_FemaleIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 112, Short.MAX_VALUE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(Label_Avatar, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(Rad_UknownIcon, javax.swing.GroupLayout.Alignment.TRAILING))
+                            .addComponent(Label_FemaleIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(Rad_FemaleIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Label_UknownIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label_MaleIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(Rad_MaleIcon)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 109, Short.MAX_VALUE)
                 .addComponent(Btn_Entrar, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34))
         );
@@ -214,11 +214,11 @@ public class frmLogin extends javax.swing.JFrame {
             }
 
             if(Rad_FemaleIcon.isSelected()){
-                Util.Avatar = "C:\\Users\\Jader\\Documents\\NetBeansProjects\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\FemaleIcon.png";
+                Util.Avatar = "C:\\Users\\Jader\\Documents\\NetBeansProjects\\Trabalho_Chat\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\FemaleIcon.png";
             } else if (Rad_MaleIcon.isSelected()){
-                Util.Avatar = "C:\\Users\\Jader\\Documents\\NetBeansProjects\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\MaleIcon.png";
+                Util.Avatar = "C:\\Users\\Jader\\Documents\\NetBeansProjects\\Trabalho_Chat\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\MaleIcon.png";
             } else if (Rad_UknownIcon.isSelected()){
-                Util.Avatar = "C:\\Users\\Jader\\Documents\\NetBeansProjects\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\UknownIcon.png";
+                Util.Avatar = "C:\\Users\\Jader\\Documents\\NetBeansProjects\\Trabalho_Chat\\Chat_Cliente_Desktop\\src\\main\\java\\imgs\\UknownIcon.png";
             }
 
             frmChat frmChat = new frmChat();
@@ -263,6 +263,7 @@ public class frmLogin extends javax.swing.JFrame {
     private javax.swing.JLabel Label_FemaleIcon;
     private javax.swing.JLabel Label_MaleIcon;
     private javax.swing.JLabel Label_Nickname;
+    private javax.swing.JLabel Label_UknownIcon;
     private javax.swing.JRadioButton Rad_Azul;
     private javax.swing.JRadioButton Rad_FemaleIcon;
     private javax.swing.JRadioButton Rad_MaleIcon;
@@ -270,6 +271,5 @@ public class frmLogin extends javax.swing.JFrame {
     private javax.swing.JRadioButton Rad_UknownIcon;
     private javax.swing.JRadioButton Rad_Vermelho;
     private javax.swing.JTextField Txt_Nickname;
-    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

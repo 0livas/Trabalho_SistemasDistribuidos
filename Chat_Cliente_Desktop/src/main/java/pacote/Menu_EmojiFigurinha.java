@@ -48,7 +48,7 @@ public class Menu_EmojiFigurinha extends JPopupMenu {
         String[] arquivos = {"NumEh.gif", "QuebraroJarro.gif", "SorreioTriste.gif", "cachorrobobo.gif", "cachorroboboca.gif"};
         for(String arquivo : arquivos){
             java.io.File imagem = new java.io.File(
-                    "C:/Users/Jader/Documents/NetBeansProjects/Chat_Cliente_Desktop/src/main/java/Figurinhas",
+                    "C:/Users/Jader/Documents/NetBeansProjects/Trabalho_Chat/Chat_Cliente_Desktop/src/main/java/Figurinhas",
                     arquivo);
             String caminho = imagem.toURI().toASCIIString();
             JButton botao = new JButton("<html><img src='" + caminho + "' width='64' height='64'></html>");
